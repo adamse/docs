@@ -5,9 +5,9 @@ author:
 description: 'FreeBSD is a free and open source operating system based on the Berkeley Software Distribution from the late 1970''s. Today FreeBSD is used all over the world.'
 keywords: 'freebsd,bsd'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-modified: Monday, March, 14, 2016
+modified: Monday, Februari, 6, 2017
 modified_by:
-  name: Rainbow
+  name: adamse
 published: 'Monday, March, 14, 2016'
 title: 'Install FreeBSD on Linode'
 external_resources:
@@ -68,9 +68,9 @@ Begin by creating the Linode and making some preliminary changes.
 
         curl $latest | dd of=/dev/sda
 
-    As of this guide's writing, the latest release is version 10.2. The following command will download the 10.2 release image to your Linode:
-
-        curl ftp://ftp.freebsd.org/pub/FreeBSD/releases/amd64/amd64/ISO-IMAGES/10.2/FreeBSD-10.2-RELEASE-amd64-memstick.img | dd of=/dev/sda
+    As of this guide's writing, the latest release is version 11.0. The following command will download the 11.0 release image to your Linode:
+    
+        curl ftp://ftp.freebsd.org/pub/FreeBSD/releases/amd64/amd64/ISO-IMAGES/11.0/FreeBSD-11.0-RELEASE-amd64-memstick.img | dd of=/dev/sda
 
 6.  When the command finishes, reboot into your **Installer profile**.
 
